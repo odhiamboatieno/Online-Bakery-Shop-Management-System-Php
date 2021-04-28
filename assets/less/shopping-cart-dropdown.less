@@ -1,0 +1,94 @@
+.top-cart-row{
+	 padding-top: 31px;
+	.dropdown-cart{
+		float:right;
+		.lnk-cart{
+			padding:0px;
+			border:1px solid #e1e1e1;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			display:inline-block;
+			color: @text-color;
+			.items-cart-inner{
+				position:relative;
+				.total-price-basket{
+					padding:13px 15px;
+					font-family: 'FjallaOneRegular';
+					text-transform:uppercase;
+					float:left;
+				}
+				.basket{
+					float:right;
+					background:#efefef;
+					padding:12px;
+					border-left:1px solid #e1e1e1;
+					padding:13px 15px;
+				}
+				.basket-item-count{
+				    -webkit-border-radius: 100px;
+				    -moz-border-radius: 100px;
+				    border-radius: 100px;
+				    height: 21px;
+				    position: absolute;
+				    right: 33px;
+				    top: -13px;
+				    width: 21px;
+				    background:#f1c40f;
+				    color:#fff;
+				    font-size:13px;
+				    text-align:center;
+				}
+			}
+		}
+		.dropdown-menu{
+			 border: 1px solid #e1e1e1;
+		    -webkit-border-radius: 0;
+		     -moz-border-radius: 0;
+		    border-radius: 0;
+		    float: right;
+		    left: auto;
+		    min-width: 0;
+		    padding: 24px 22px;
+		    right: 0;
+		    width: 230px;
+		    -moz-box-shadow:none;
+		    -webkit-box-shadow:none;
+		    box-shadow:none;
+		    .cart-item.product-summary{
+                .name{
+                	font-size:13px;
+                	font-family: 'FjallaOneRegular';
+                	margin-top:0px;
+                	a{
+                       color: @text-color;
+                	}
+                }
+                .price{
+                	font-weight:700;
+                }
+                .action{ 
+			     padding: 0;
+			     position: relative;
+			     font-size:15px;
+			     right:8px;
+			     top:8px;
+				    a{
+	                   color:#898989;
+				    }
+			    }
+		    }
+		    .cart-total{
+		    	.text{
+		    		font-size:13px;
+                	font-family: 'FjallaOneRegular';
+                	color: @text-color;
+                	margin-right:10px;
+		    	}
+		    	.price{
+		    		font-weight:700;
+		    	}
+		    }
+		}
+	}
+}

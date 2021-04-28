@@ -1,0 +1,82 @@
+.body-content .sign-in-page .sign-in h4,
+.body-content .sign-in-page .create-new-account h4 {
+    font-size: 24px;
+    font-family: 'FjallaOneRegular';
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+}
+.body-content .sign-in-page .sign-in p,
+.body-content .sign-in-page .create-new-account p {
+    font-size: 15px;
+    color: #666;
+}
+.body-content .sign-in-page .sign-in .social-sign-in a,
+.body-content .sign-in-page .sign-in .social-sign-in a:hover,
+.body-content .sign-in-page .sign-in .social-sign-in a:focus {
+    border-radius: 3px;
+    padding: 14px 30px;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+.body-content {
+    .sign-in-page {
+        .sign-in {
+            .social-sign-in {
+                a {
+                    i {
+                        padding-right: 6px;
+                    }
+                }
+                .facebook-sign-in {
+                    background-color: #3d5c98;
+                    margin-right: 10px;
+                    &:hover,
+                    &:focus{
+                        background-color: #153470;
+                    }
+                }
+                .twitter-sign-in {
+                    background-color: #22aadf;
+                    &:hover,
+                    &:focus{
+                        background-color: #0084B9;
+                    }
+                }
+            }
+        }
+        .create-new-account {
+             > span {
+                font-size: 20px;
+                font-family: 'FjallaOneRegular';
+                padding-bottom: 14px;
+                text-transform: uppercase;
+                display: inline-block;
+            }
+            .checkbox {
+                label {
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                }
+            }
+        }
+        form {
+            .form-group {
+                span {
+                    color: red;
+                }
+            }
+        }
+        .register-form{
+            label{
+                font-size:14px;
+                font-weight:400;
+            }
+            .form-group{
+                margin-bottom:25px;
+            }
+        }
+    }
+}

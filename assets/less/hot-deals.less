@@ -1,0 +1,138 @@
+.hot-deals{
+	.hot-deal-wrapper{
+		position:relative;
+		.sale-offer-tag{
+			 -webkit-border-radius: 50px;
+			  -moz-border-radius: 50px;
+			 border-radius: 50px;
+		    color: #FFFFFF;
+		    font-size: 13px;
+		    font-weight: 700;
+		    height: 50px;
+		    text-transform: uppercase;
+		    top: 4%;
+		    right:10px;
+		    width: 50px;
+		    z-index: 100;
+		    background:#ff7878;
+		    position:absolute;
+		    text-align:center;
+		    span{
+		    	position: relative;
+                z-index: 100;
+                top: 4px;
+		    }
+		}
+		.timing-wrapper{
+			 bottom: 20px;
+		    position: absolute;
+		    left:21px;
+				.box-wrapper{
+				display: table;
+			    text-align: center;
+			    margin-right:10px;
+			    float:left;
+			    .box{
+					background-color: #a5a5a5;
+				    -webkit-border-radius: 4px;
+				    -moz-border-radius: 4px;
+				    border-radius: 4px;
+				    color: #FFFFFF;
+				    display: table-cell;
+				    height: 44px;
+				    vertical-align: middle;
+				    width: 47px;
+				    line-height:15px;
+				    
+				    .key{
+				    	 display: block;
+					    font-size:17px;
+					    text-transform: uppercase;
+					    font-weight:700;
+				    }
+				    .value{
+				    	display:block;
+				    	font-size:11px;
+				    	font-weight:500;
+				    }
+			    }
+			    &:last-child{
+			    	margin-right:0px;
+			    }
+			}
+		}
+	}
+	.product-info{
+		.name{
+			font-size:18px;
+			font-family: 'FjallaOneRegular';
+			a{
+				color:#555;
+			}
+		}
+		.product-price{
+			.price{
+				font-weight:700;
+				font-size:16px;
+				line-height:30px;
+				margin-right:8px;
+			}
+			.price-before-discount{
+				text-decoration:line-through;
+				color:#d3d3d3;
+				font-weight:400;
+				line-height:30px;
+				font-size:14px;
+			}
+		}
+	}
+	.cart{
+		margin-top:5px;
+		-webkit-transition: all 0.2s linear 0s;
+		-moz-transition: all 0.2s linear 0s;
+		-o-transition: all 0.2s linear 0s;
+		transition: all 0.2s linear 0s;
+	    z-index: 666;
+	    left:0px;
+		.action{
+			float:left;
+			.add-cart-button{
+				a{
+					background: none repeat scroll 0 0 #a8a8a8;
+				    border: medium none;
+				    color: #FFFFFF;
+				    display: block;
+				    overflow: hidden;
+				    position: relative;
+				    text-decoration: none;
+				    padding:0px;
+				    .icon{
+				    	background: none repeat scroll 0 0 #575757;
+					    color: #FFFFFF;
+					    height: 100%;
+					    left: 0;
+					    font-size: 13px;
+					    padding: 11px 0 0;
+					    position: absolute;
+					    text-align: center;
+					    top: 0;
+					    width: 35px;
+					}
+				    span{
+				    	 display: block;
+					    margin-left: 35px;
+					    overflow: hidden;
+					    padding: 8px 13px;
+				    }
+				    &:hover,
+				    &:focus{
+				    	background: #c6c6c6;
+				    }
+				    
+				}
+			}
+		
+	
+		}
+	}
+}

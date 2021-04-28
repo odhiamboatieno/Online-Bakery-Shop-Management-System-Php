@@ -1,0 +1,67 @@
+.body-content {
+    .my-wishlist-page {
+        .my-wishlist {
+            table {
+                 > thead {
+                     > tr {
+                         > th {
+                            text-align: center;
+                            font-size: 30px;
+                            font-family: 'FjallaOneRegular';
+                            text-transform: uppercase;
+                            border: none;
+                            font-weight:400;
+                        }
+                    }
+                }
+                tbody {
+                    tr:nth-child(even) {
+                        border-top: 1px solid #ddd;
+                    }
+                    .product-name {
+                        font-size: 20px;
+                        font-family: 'FjallaOneRegular';
+                        padding-bottom: 6px;
+                        a{
+                            color: #434343;                                              
+                        }
+                    }
+                    .rating {
+                        span {
+                            font-size: 11px;
+                            color: #aaa;
+                            padding-left: 10px;
+                        }
+                        .rate {
+                            color: #ffb400;
+                        }
+                        .non-rate {
+                            color: #dcdcdc;
+                        }
+                    }
+                    .price {
+                        font-size: 20px;
+                        padding-top: 4px;
+                        font-weight: bold;
+                        span {
+                            font-size: 15px;
+                            color: #ddd;
+                            text-decoration: line-through;
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.body-content .my-wishlist-page .my-wishlist table  > thead > tr > th,
+ .table  > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+    border: none;
+    padding: 30px;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .close-btn a,.body-content .my-wishlist-page .my-wishlist table tbody .close-btn a:hover {
+    color: #ff7878;
+    font-size: 15px;
+}

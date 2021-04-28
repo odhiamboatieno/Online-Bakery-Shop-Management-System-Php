@@ -1,0 +1,86 @@
+.category-carousel{
+	text-align: center;
+  cursor: default;
+	.item{
+		background-color: #FFFFFF;
+	    background-position: center 55%;
+	    background-size: cover;
+	    height: 255px;
+	    position:relative;
+		    .caption{
+		    	 color: #636363;
+			    left: 12%;
+			    letter-spacing: -3px;
+			    position: absolute;
+			    top: 10%;
+			    z-index: 100;
+			     display: table-cell;
+			    .big-text{
+			    	font-size: 150px;
+				    line-height:145px;
+				    text-transform: uppercase;
+				    font-family: 'FjallaOneRegular';
+				    color:#fe5252;
+			    }
+			    .excerpt{
+			    	font-size: 40px;
+				    letter-spacing: -1px;
+				    text-transform: uppercase;
+				    color:@text-color;
+			    }
+			   
+			}
+			.owl-controls{
+				 display: inline-block;
+				  position: relative;
+				  margin-top: 40px;
+				  .owl-prev,
+				  .owl-next{
+				  	display: inline-block;
+					  position: absolute;
+					  top: 0;
+					  bottom: 0;
+					  width: 30px;
+					  height: 30px;
+					  font-size: 21px;
+					  color: #FFF;
+					  background-color: #d3d3d3;
+					  border: none;
+					  -webkit-border-radius: 3px;
+					  -moz-border-radius: 3px;
+					  border-radius: 3px;
+					  margin: auto;
+					  -webkit-transition: all 200ms ease-out;
+					  -moz-transition: all 200ms ease-out;
+					  -o-transition: all 200ms ease-out;
+					  transition: all 200ms ease-out;
+					  opacity: 0;
+
+				  }
+				  .owl-prev{
+				  	left: -35px;
+				  }
+				  .owl-next{
+				  	right: -35px;
+				  }
+			}
+			&:hover{
+				.owl-prev{
+					 left: -40px;
+                    opacity: .25;
+				}
+			}
+			&:hover{
+				.owl-next{
+					 right: -40px;
+                     opacity: .25;
+				}
+			}
+			&:hover{
+				.owl-prev:hover,
+				.owl-next:hover{
+                   opacity: 1;
+				}
+			}
+	}
+}

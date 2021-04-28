@@ -1,0 +1,356 @@
+.blog-page {
+    .blog-post {
+        h1 {
+            font-family: 'FjallaOneRegular';
+            font-size: 25px;
+            text-transform: uppercase;
+            
+            a{
+              color: #555;
+            }
+        }
+        span {
+            padding-right: 20px;
+            color: #aaa;
+            font-size: 13px;
+        }
+        p {
+            padding-top: 16px;
+            text-align: justify;
+            font-size: 13px;
+            color:@text-color;
+            margin-bottom:0px;
+        }
+        a {
+            margin-top: 10px;
+        }
+        .blog-pagination {
+            .pagination {
+                -webkit-border-radius: 0px;
+                -moz-border-radius: 0px;
+                border-radius: 0px;
+            }
+        }
+        .social-media {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            span {
+                font-size: 13px;
+                text-transform: uppercase;
+                color: #434343;
+            }
+            a {
+                font-size: 18px;
+                margin: 0px 10px 0px 0px;
+                height: 30px;
+                width: 30px;
+                display: inline-block;
+                text-align: center;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                border-radius: 20px;
+                color: @gray;
+            }
+        }
+    }
+    .sidebar {
+        .sidebar-module-container {
+            .sidebar-widget {
+                .blog-post {
+                    h4 {
+                        font-family: 'FjallaOneRegular';
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        a{
+                            color: #555;
+                          }
+                    }
+                    span {
+                        padding-right: 10px;
+                        color: #aaa;
+                        font-size: 12px;
+                    }
+                    p {
+                        padding-top: 10px;
+                        text-align: justify;
+                        font-size: 12px;
+                        color: @text-color;
+                    }
+                }
+                .nav-tabs {
+                    border-bottom:none;
+                     > li {
+                        text-transform: uppercase;
+                        color: @text-color;
+                        & > a {
+                            -webkit-border-radius: 0px;
+                            -moz-border-radius: 0px;
+                            border-radius: 0px;
+                            font-size: 13px;
+                            border:none;
+                        }
+                    }
+                     > li:first-child {
+                         > a {
+                            padding-right: 10px;
+                            border-right:1px solid #d4d4d4;
+                        }
+                    }
+                     > li:last-child {
+                         > a {
+                            padding-left: 10px;
+                        }
+                    }
+                }
+                .nav {
+                    > li {
+                         > a {
+                            padding: 0px;
+                            color: @text-color;
+                        }
+                    }
+                }
+            }
+            .search-area {
+                .search-button:after {
+                    content: "\f002";
+                    font-family: fontawesome;
+                    font-size: 13px;
+                    position: absolute;
+                    top: 14px;
+                    right: 30px;
+                    background-color: #fff;
+                    padding-left: 10px;
+                }
+                input {
+                    font-size: 12px;
+                    color: #9e9e9e;
+                    padding: 14px;
+                    border: 1px solid #e1e1e1;
+                    width: 100%;
+                    position: relative;
+                }
+            }
+        }
+    }
+    .blog-pagination {
+        border-top: 1px solid #ececec;
+        .pagination {
+             > li:first-child {
+                 > a {
+                    margin-right: 10px;
+                }
+            }
+             > li:last-child {
+                 > a {
+                    margin-left: 2px;
+                }
+            }
+        }
+    }
+    .side-bar-blog {
+        .widget {
+            .categories {
+                .side-bar-title {
+                    h3 {
+                        font-family: 'FjallaOneRegular';
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        color: #555;
+                        padding-bottom: 8px;
+                        border-bottom: 1px solid #e3e3e3;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .blog-post-author-details {
+        padding: 40px 0px;
+        border-top: 1px solid #e3e3e3;
+        border-bottom: 1px solid #e3e3e3;
+        .author-social-network {
+            display: inline-block;
+            button {
+                background-color: #fff;
+                border: 1px solid #e3e3e3;
+                .twitter-icon {
+                     -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    border-radius: 20px;
+                    color: #fff;
+                    font-size: 16px;
+                    height: 26px;
+                    width: 26px;
+                    text-align: center;
+                    display: inline-block;
+                    margin: 6px;
+                    line-height:26px;
+                }
+            }
+             > span {
+                font-size: 13px;
+                color: #434343;
+                text-transform: uppercase;
+                margin-right: 16px;
+            }
+            .caret {
+                color: #e3e3e3;
+            }
+        }
+        .btn-group.open {
+            .dropdown-toggle {
+                -moz-box-shadow: none;
+                 -webkit-box-shadow: none;
+                  box-shadow: none;
+            }
+        }
+        img {
+            float: left;
+        }
+        .author-job {
+            display: block;
+            padding: 0px;
+            color: #aaa;
+            font-size: 12px;
+        }
+        h4 {
+            display: inline-block;
+            font-size: 15px;
+            font-family: 'FjallaOneRegular';
+            text-transform: uppercase;
+            color: #555;
+            margin: 0px;
+        }
+        p {
+            font-size: 13px;
+            color: @text-color;
+            padding: 16px 0px 0px 0px;
+            text-align: justify;
+        }
+    }
+    .blog-review {
+        .title-review-comments {
+            font-size: 16px;
+            color: #555;
+            font-family: 'FjallaOneRegular';
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 13px;
+            color: @text-color;
+            text-align: justify;
+        }
+        .review-action {
+            font-size: 12px;
+            color: @text-color;
+        }
+        .post-load-more {
+            text-align: center;
+            border-bottom: 1px solid #e3e3e3;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+
+.blog-page {
+  .blog-post{
+    .author:before,
+    .review:before,
+    .date-time:before{
+       color: @text-color;
+      font-size: 13px;
+      padding-right: 4px;
+      font-family: FontAwesome;
+    }
+  }
+  .sidebar{
+    .sidebar-module-container {
+       .sidebar-widget{
+        .blog-post{
+          .author:before,
+          .review:before,
+          .date-time:before{
+            color: @text-color;
+           font-size: 13px;
+           padding-right: 4px;
+           ont-family: FontAwesome;
+          }
+        }
+       }
+    }
+  }
+}
+
+.blog-page .blog-post .author:before,
+.blog-page .sidebar .sidebar-module-container .sidebar-widget .blog-post .author:before {
+    content: "\f044";
+}
+.blog-page .blog-post .review:before,
+.blog-page .sidebar .sidebar-module-container .sidebar-widget .blog-post .review:before {
+    content: "\f086";
+}
+.blog-page .blog-post .date-time:before,
+.blog-page .sidebar .sidebar-module-container .sidebar-widget .blog-post .date-time:before {
+    content: "\f073";
+}
+.blog-page .sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a,
+.blog-page .sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:hover,
+.blog-page .sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:focus {
+    background-color: #fff;
+    
+}
+.blog-page .sidebar .sidebar-module-container .sidebar-widget .nav > li > a:hover,
+.blog-page .sidebar .sidebar-module-container .sidebar-widget .nav > li > a:focus {
+    background-color: #fff;
+}
+.blog-page .blog-post .social-media a:hover,.blog-page .blog-post .social-media a:focus {
+    -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+      border-radius: 20px;
+    color: #fff;
+}
+.blog-page .blog-post .social-media i,.blog-page .blog-post-author-details .author-social-network button a i {
+    padding-top: 6px;
+}
+.blog-page .blog-review h4,.blog-page .blog-write-comment h4,.contact-page .contact-title h4 {
+    font-size: 16px;
+    color: #555;
+    font-family: 'FjallaOneRegular';
+    text-transform: uppercase;
+    display: inline-block;
+}
+.blog-page .blog-review .review-action a:hover,.blog-page .blog-review .review-action a:focus {
+    text-decoration: underline;
+}
+.blog-page .blog-review .blog-comments,.blog-page .blog-review .blog-sub-comments {
+    border-bottom: 1px solid #e3e3e3;
+}
+.blog-page{
+     .blog-post-author-details{
+          .author-social-network{
+           .dropdown-menu{
+                -moz-box-shadow:none;
+                 -webkit-box-shadow:none;
+                box-shadow:none;
+                -webkit-border-radius:0px;
+                -moz-border-radius:0px;
+                border-radius:0px;
+                > li{
+                    > a{
+                        .icon{
+                            margin-right:5px;
+                        }
+                        &:hover,
+                        &:focus{
+                            background:rgba(0,0,0,0);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

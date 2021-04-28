@@ -1,0 +1,36 @@
+.breadcrumb{
+	background:rgba(0,0,0,0);
+	padding: 0;
+	ul{
+		 border-bottom: 1px solid #F2F2F2;
+	    margin: auto;
+	    padding: 20px 0 10px;
+	    text-align:right;
+	    li{
+	    	&:after{
+
+			    color: #666666;
+			    content: "/";
+			    font-family: 'Roboto',sans-serif;
+			    font-size: 12px;
+			    line-height: 24px;
+			    margin-left:9px;
+			    margin-right: -4px;
+			    padding:0px;
+			}
+			&:last-child:after{
+				 content: "";
+			}
+		    a{
+		    	 color: #666666;
+			    font-family: 'Roboto',sans-serif;
+			    font-size: 12px;
+			    line-height: 24px;
+			    font-weight:500;
+			    
+			}
+
+
+		}
+	}
+}

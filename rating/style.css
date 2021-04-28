@@ -1,0 +1,58 @@
+.content{
+    border: 0px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.post{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.post:last-child{
+    border: 0;
+}
+
+.post h1{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.post a.link{
+    text-decoration: none;
+    color: black;
+}
+.post-text{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    text-align: justify;
+}
+.post-action{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.like,.unlike{
+    border: 0;
+    background: none;
+    letter-spacing: 1px;
+    color: lightseagreen;
+}
+
+.like,.unlike:hover{
+    cursor: pointer;
+}
+
+
+/* media query */
+@media (max-width: 800px){
+    .content{
+        width: 95%;
+    }
+}
+
