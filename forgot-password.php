@@ -160,7 +160,7 @@ echo htmlentities($_SESSION['errmsg']="");
 
 
 		
-	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button" name="change">Change</button>
+	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button" name="change">Update</button>
 	</form>					
 </div>
 <!-- Sign-in -->
