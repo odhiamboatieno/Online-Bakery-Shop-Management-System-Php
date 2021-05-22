@@ -131,7 +131,7 @@ $(function() {
         <div class="col-md-5 col-md-push-7">
           <div class="banner_content">
             <h1>Ever Tasty Ever Delicious.</h1>
-            <p>We have more than twenty flavours for you to choose. </p>
+            <p>We have more than twenty cake flavours for you to choose. </p>
             <a href="cake-listing.php" class="btn">Order Now <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ $(function() {
 <section class="section-padding gray-bg">
   <div class="container">
     <div class="section-header text-center">
-      <h2>What we have in store <span> For You</span></h2>
+      <h2>What we have in wait <span> For You</span></h2>
 
     <div class="row">
 
