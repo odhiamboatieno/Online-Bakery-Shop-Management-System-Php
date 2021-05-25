@@ -111,7 +111,7 @@ header('location:my-wishlist.php');
 	            <!-- ================================== TOP NAVIGATION ================================== -->
 <div class="side-menu animate-dropdown outer-bottom-xs">       
 <div class="side-menu animate-dropdown outer-bottom-xs">
-    <div class="head"><i class="icon fa fa-align-justify fa-fw"></i>Sub Categories</div>        
+	<div class="head"><i class="icon fa fa-align-justify fa-fw"></i>Child Categories</div>        
     <nav class="yamm megamenu-horizontal" role="navigation">
   
         <ul class="nav">
