@@ -214,7 +214,7 @@ $testimonials=$query5->rowCount();
 													<div class="stat-panel-title text-uppercase">Employees</div>
 												</div>
 											</div>
-											<a href="employee.php" class="block-anchor panel-footer text-center">Full Detail &nbsp; <i class="fa fa-arrow-right"></i></a>
+											<a href="employee.php" class="block-anchor panel-footer text-center">Full Details &nbsp; <i class="fa fa-arrow-right"></i></a>
 										</div>
 									</div>
 								</div>
