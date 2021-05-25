@@ -136,7 +136,7 @@ while($row=mysqli_fetch_array($sql))
 		            	<!-- ============================================== SIDEBAR CATEGORY ============================================== -->
 <div class="sidebar-widget wow fadeInUp outer-bottom-xs ">
 	<div class="widget-header m-t-20">
-		<h4 class="widget-title">Category</h4>
+		<h4 class="widget-title">Categories</h4>
 	</div>
 	<div class="sidebar-widget-body m-t-10">
 	         <?php $sql=mysqli_query($con,"select id,categoryName  from category");
