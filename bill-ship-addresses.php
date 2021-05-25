@@ -211,7 +211,7 @@ while($row=mysqli_fetch_array($query))
 					  </div>
 
 
-					  <button type="submit" name="shipupdate" class="btn-upper btn btn-primary checkout-page-button">Update</button>
+					  <button type="submit" name="shipupdate" class="btn-upper btn btn-primary checkout-page-button">Save Changes</button>
 					</form>
 					<?php } ?>
 
