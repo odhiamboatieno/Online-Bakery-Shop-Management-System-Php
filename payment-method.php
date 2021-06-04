@@ -81,7 +81,7 @@ else{
 		<div class="panel-heading">
     	<h4 class="unicase-checkout-title">
 	        <a data-toggle="collapse" class="" data-parent="#accordion" href="#collapseOne">
-	         Select your Payment Method
+	         Select Prefered payment Method
 	        </a>
 	     </h4>
     </div>
